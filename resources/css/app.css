@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active-navbar .sidebar{
+    @apply w-[225px]
+}
+
+.active-navbar .text{
+    @apply block
+}
+
+.active-navbar .space{
+    @apply w-[225px]
+}
+
+.active-navbar > section{
+    @apply ml-[225px]
+}
+
+.active-navbar .cap{
+    @apply block
+}
+
+.active-navbar .small-cap{
+    @apply hidden
+}
+
+.active-navbar .icon{
+    @apply float-left
+}
+
+.active-navbar .collappse{
+    @apply flex items-center
+}
+
+
+.active-list .hidden-list{
+    @apply flex
+}
+
+.active-list .arrow{
+    @apply -rotate-90
+}
+
+
+
+
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
+}
