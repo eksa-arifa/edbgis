@@ -33,7 +33,7 @@
 }
 
 .active-navbar .collappse{
-    @apply flex items-center
+    @apply flex items-center justify-between
 }
 
 
@@ -43,6 +43,14 @@
 
 .active-list .arrow{
     @apply -rotate-90
+}
+
+.active-navbar .collapse-title{
+    @apply flex items-center
+}
+
+.active-small-device-sidebar .smoll{
+    @apply left-0
 }
 
 
