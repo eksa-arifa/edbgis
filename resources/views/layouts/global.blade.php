@@ -112,7 +112,7 @@
         </div>
     </div>
 
-    <section class="sm:ml-[70px] mt-[60px] p-5 transition-all">
+    <section class="sm:ml-[70px] mt-[70px] pt-[25px] px-[30px] transition-all">
         @yield('content')
     </section>
 
